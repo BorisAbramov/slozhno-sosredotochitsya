@@ -2,4 +2,26 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 1024px;
+  height: 100vh;
+  min-height: 668px;
+  background-image: url('../images/cover-image-dark.png');
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+}
+
+.header__theme-menu {
+  justify-content: center;
+  align-self: self-start;
+}
+
+.header__title {
+
 }
