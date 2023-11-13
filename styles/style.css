@@ -123,7 +123,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: 1px solid var(--menu-color);
+  border-block-end: 1px solid var(--menu-color);
 }
 
 .content {
@@ -198,7 +198,7 @@
 }
 
 .link:focus {
-  border: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .gallery {
